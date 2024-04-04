@@ -1,0 +1,73 @@
+.navbar{
+    height: 60px;
+    width: 100%;
+  
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 0px 0px 0px 0px;
+   
+}
+.logo{
+    background-color: skyblue;
+    color: white;
+    width: 6%;
+    height: 100%;
+    display: flex;
+    text-align: center;
+ justify-content: center;
+ align-items: center;
+    
+}
+.navright{
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.avatar{
+    height: 40px;
+    width: 40px;
+    background-color: skyblue;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  .slider-container {
+    position: relative;
+  }
+  
+  .main {
+    cursor: pointer;
+    left: 30px;
+    /* Add your other styles */
+  }
+  
+  .box {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 20px;
+    width: 150px; /* Adjust width as needed */
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    cursor: pointer;
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  
+    .slider-container:hover .box {
+    display: block;
+  } 
+  /* .hover {
+    visibility: hidden;
+    cursor: pointer;
+  }
+  .hi:hover ~ .hover {
+    visibility: visible;
+    cursor: pointer;
+  }  */
